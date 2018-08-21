@@ -38,21 +38,22 @@ $(document).ready(function(){
     })
 
 // the numbers must be equal to the random number that is generated
-    if (total === gameNum){
-        wins++;
-    }
-    if (total > gameNum){
-        losses++;
-    }
+   if (total === gameNum) {
+       wins++;
 // player gets +1 point to wins when their number equals randomNum
+       $("#numWin").text(wins);
+       console.log("you win!");
+   }
    
 // player gets +1 point to losses when their number > randomNum
+   else if (total > gameNum) {
+       losses++;
+   
+        $("#numLosses").html(losses);
+        console.log("you lose!");
+   }
+       
 // Game restarts when play wins or loses
 // When game restarts, the player should see a new random number
 // When game restarts, a new value is generated for each crystal
-    var html = 
-    "<p>Wins: " + wins + "</p>" +
-    "<p>Losses: " + losses + "</p>";
-
-    document.querySelector(".scores").innerHTML = html;
 })
