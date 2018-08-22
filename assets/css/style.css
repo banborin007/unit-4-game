@@ -78,3 +78,9 @@ img#purple_crystal {
     width: 83px;
     height: 93px;
 }
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
