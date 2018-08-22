@@ -1,0 +1,106 @@
+body {
+    background-image: url("../images/crystal_background.jpg");
+    background-size: 1300px 950px;
+    color: whitesmoke;
+}
+
+h1 {
+    color: paleturquoise;
+    font-size: 36px;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    background-color: darkblue;
+}
+
+p.rule {
+    color: burlywood;
+    font-size: 20px;
+    width: 450px;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+p#randomNum {
+    color: paleturquoise;
+    font-size: 35px;
+    width: 65px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    background-color: darkblue;
+}
+
+div.scores {
+    color: burlywood;
+    font-size: 20px;
+    width: 90px;
+    padding: 10px;
+    margin: 5px;
+    background-color: darkcyan;
+}
+
+div.crystals {
+    padding: 5px;
+}
+
+p#total {
+    color: salmon;
+    font-size: 28px;
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    background-color: darkcyan;
+}
+
+p#score {
+    color: salmon;
+    font-size: 35px;
+    width: 65px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    background-color: darkcyan;
+}
+
+img#blue_crystal {
+    width: 83px;
+    height: 93px;
+}
+
+img#green_crystal {
+    width: 83px;
+    height: 93px;
+}
+
+img#purple_crystal {
+    width: 83px;
+    height: 93px;
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
